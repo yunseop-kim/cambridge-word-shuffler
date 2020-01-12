@@ -1,0 +1,25 @@
+{
+  "name": "cambridge-word-shuffler",
+  "version": "0.1.0",
+  "description": "sentence shuffler using [word superiority effect](http://www.mrc-cbu.cam.ac.uk/people/matt.davis/cmabridge/)",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel lib/index.js --out-file dist/index.js"
+  },
+  "keywords": [
+    "word shuffler",
+    "cambridge",
+    "puns"
+  ],
+  "author": "Yunseop Kim <yunsub2@gmail.com> (https://devtimothy.tistory.com/)",
+  "license": "ISC",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
